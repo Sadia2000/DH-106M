@@ -1,0 +1,963 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>Flightdeck.ac</path>
+
+<!--Instruments-->
+<model>
+ <name>Engine RPM Gauges</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/Engine-RPM/RPM.xml</path>
+<offsets>
+  <x-m>-17.13655</x-m>
+  <y-m>0.0</y-m>
+  <z-m>-1.10138</z-m>
+ </offsets>
+</model>
+<model>
+ <name>AI-cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ai/ai.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>-0.48053</y-m>
+  <z-m>-0.99597</z-m>
+ </offsets>
+</model>
+<model>
+ <name>VSI-cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/vsi-6/vsi-3d.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>-0.39086</y-m>
+  <z-m>-1.09945</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Alt-cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/altimeter/altimeter.xml</path>
+<offsets>
+  <x-m>-17.10731</x-m>
+  <y-m>-0.39028</y-m>
+  <z-m>-1.00836</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ASI-cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/asi300/asi300-3d.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>-0.56849</y-m>
+  <z-m>-0.99597</z-m>
+ </offsets>
+</model>
+<model>
+ <name>AI-fo</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ai/ai.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>0.48636</y-m>
+  <z-m>-1.01339</z-m>
+ </offsets>
+</model>
+<model>
+ <name>VSI-fo</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/vsi-6/vsi-3d.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>0.58287</y-m>
+  <z-m>-1.11687</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Alt-fo</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/altimeter/altimeter.xml</path>
+<offsets>
+  <x-m>-17.10731</x-m>
+  <y-m>0.57661</y-m>
+  <z-m>-1.02578</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ASI-fo</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/asi300/asi300-3d.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>0.3997</y-m>
+  <z-m>-1.01339</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Radar-Captain</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/RDR-160/RDR-160.xml</path>
+<offsets>
+  <x-m>-17.12247</x-m>
+  <y-m>-0.32681</y-m>
+  <z-m>-1.23035</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Chorno-Cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/chronograph/chronograph.xml</path>
+<offsets>
+  <x-m>-17.11791</x-m>
+  <y-m>-0.60566</y-m>
+  <z-m>-1.25362</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Chorno-F/O</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/chronograph/chronograph.xml</path>
+<offsets>
+  <x-m>-17.11791</x-m>
+  <y-m>0.28376</y-m>
+  <z-m>-1.25362</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ADF-Sel_(Captain)</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ADF-462/ctl62-adf.xml</path>
+<offsets>
+  <x-m>-17.10793</x-m>
+  <y-m>-0.04</y-m>
+  <z-m>-1.00468</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ADF-Sel_(FO)</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ADF-462/ctl62-adf.xml</path>
+<offsets>
+  <x-m>-17.10793</x-m>
+  <y-m>0.04</y-m>
+  <z-m>-1.00468</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ki227-00(Cap)</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kr87-adf/ki227-00.xml</path>
+<offsets>
+  <x-m>-17.12127</x-m>
+  <y-m>-0.27818</y-m>
+  <z-m>-1.00468</z-m>
+ </offsets>
+</model>
+<model>
+ <name>ki227-00(FO)</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kr87-adf/ki227-00.xml</path>
+<offsets>
+  <x-m>-17.12127</x-m>
+  <y-m>0.28255</y-m>
+  <z-m>-1.00468</z-m>
+ </offsets>
+</model>
+<model>
+ <name>VOR-Cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ki206/ki206.xml</path>
+<offsets>
+  <x-m>-17.11834</x-m>
+  <y-m>-0.48426</y-m>
+  <z-m>-1.11687</z-m>
+ </offsets>
+</model>
+<model>
+ <name>VOR-FO</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/ki206/ki206.xml</path>
+<offsets>
+  <x-m>-17.11834</x-m>
+  <y-m>0.49722</y-m>
+  <z-m>-1.11629</z-m>
+ </offsets>
+</model>
+
+<model>
+ <name>mach-Cap</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/mach/mach.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>-0.57178</y-m>
+  <z-m>-1.10866</z-m>
+ </offsets>
+</model>
+<model>
+ <name>mach-FO</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/mach/mach.xml</path>
+<offsets>
+  <x-m>-17.12052</x-m>
+  <y-m>0.40611</y-m>
+  <z-m>-1.11687</z-m>
+ </offsets>
+</model>
+
+<model>
+ <name>Overhead-Radio-Cap1</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.66074</x-m>
+  <y-m>-0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Overhead-Radio-FO1</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.66074</x-m>
+  <y-m>0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Overhead-Radio-Cap2</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.60754</x-m>
+  <y-m>-0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Overhead-Radio-FO2</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.60754</x-m>
+  <y-m>0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Overhead-Radio-Cap3</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.54797</x-m>
+  <y-m>-0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<model>
+ <name>Overhead-Radio-FO3</name>
+ <path>Aircraft/DH-106M/Models/Flightdeck/Instruments/kx165/kx165-1.xml</path>
+<offsets>
+  <x-m>-16.54797</x-m>
+  <y-m>0.16375</y-m>
+  <z-m>-0.46724</z-m>
+ </offsets>
+</model>
+<!--Picks-->
+<animation>
+  <type>pick</type>
+	<object-name>A/P</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-assign</command>
+	  <property>/autopilot/locks/heading</property>
+	  <value>dg-heading-hold</value>
+	</binding>
+	<binding>
+	  <command>property-assign</command>
+	  <property>/autopilot/locks/altitude</property>
+	  <value>altitude-hold</value>
+	</binding>
+   </action>
+</animation>
+
+<animation>
+  <type>pick</type>
+	<object-name>A/P</object-name>
+   <action>
+    <button>1</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-assign</command>
+	  <property>/autopilot/locks/heading</property>
+	  <value>0</value>
+	</binding>
+	<binding>
+	  <command>property-assign</command>
+	  <property>/autopilot/locks/altitude</property>
+	  <value>0</value>
+	</binding>
+   </action>
+</animation>
+
+ <animation>
+  <type>pick</type>
+	<object-name>Throttle-1</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[0]/throttle</property>
+	  <step>-0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-2</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[1]/throttle</property>
+	  <step>-0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-3</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[2]/throttle</property>
+	  <step>-0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-4</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[3]/throttle</property>
+	  <step>-0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+	<object-name>Throttle-1</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[0]/throttle</property>
+	  <step>0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-2</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[1]/throttle</property>
+	  <step>0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-3</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[2]/throttle</property>
+	  <step>0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+  <animation>
+  <type>pick</type>
+	<object-name>Throttle-4</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>true</repeatable>
+	<binding>
+	  <command>property-adjust</command>
+	  <property>controls/engines/engine[3]/throttle</property>
+	  <step>0.15</step>
+	  <min>0</min>
+	  <max>100</max>
+	  <wrap>false</wrap>
+	</binding>
+   </action>
+ </animation>
+<!--Animations-->
+ <animation>
+  <type>translate</type>
+  <object-name>Throttle-1</object-name>
+  <property>controls/engines/engine[0]/throttle</property>
+<interpolation>
+	<entry><ind>0.0</ind><dep>0</dep></entry>
+	<entry><ind>0.1</ind><dep>0.0094816</dep></entry>
+	<entry><ind>0.2</ind><dep>0.0189632</dep></entry>
+	<entry><ind>0.3</ind><dep>0.0284448</dep></entry>
+	<entry><ind>0.4</ind><dep>0.0379264</dep></entry>
+	<entry><ind>0.5</ind><dep>0.047408</dep></entry>
+	<entry><ind>0.6</ind><dep>0.0568896</dep></entry>
+	<entry><ind>0.7</ind><dep>0.0663712</dep></entry>
+	<entry><ind>0.8</ind><dep>0.0758528</dep></entry>
+	<entry><ind>0.9</ind><dep>0.0853344</dep></entry>
+	<entry><ind>1.0</ind><dep>0.094816</dep></entry>
+</interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>Throttle-2</object-name>
+  <property>controls/engines/engine[1]/throttle</property>
+<interpolation>
+	<entry><ind>0.0</ind><dep>0</dep></entry>
+	<entry><ind>0.1</ind><dep>0.0094816</dep></entry>
+	<entry><ind>0.2</ind><dep>0.0189632</dep></entry>
+	<entry><ind>0.3</ind><dep>0.0284448</dep></entry>
+	<entry><ind>0.4</ind><dep>0.0379264</dep></entry>
+	<entry><ind>0.5</ind><dep>0.047408</dep></entry>
+	<entry><ind>0.6</ind><dep>0.0568896</dep></entry>
+	<entry><ind>0.7</ind><dep>0.0663712</dep></entry>
+	<entry><ind>0.8</ind><dep>0.0758528</dep></entry>
+	<entry><ind>0.9</ind><dep>0.0853344</dep></entry>
+	<entry><ind>1.0</ind><dep>0.094816</dep></entry>
+</interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>Throttle-3</object-name>
+  <property>controls/engines/engine[2]/throttle</property>
+<interpolation>
+	<entry><ind>0.0</ind><dep>0</dep></entry>
+	<entry><ind>0.1</ind><dep>0.0094816</dep></entry>
+	<entry><ind>0.2</ind><dep>0.0189632</dep></entry>
+	<entry><ind>0.3</ind><dep>0.0284448</dep></entry>
+	<entry><ind>0.4</ind><dep>0.0379264</dep></entry>
+	<entry><ind>0.5</ind><dep>0.047408</dep></entry>
+	<entry><ind>0.6</ind><dep>0.0568896</dep></entry>
+	<entry><ind>0.7</ind><dep>0.0663712</dep></entry>
+	<entry><ind>0.8</ind><dep>0.0758528</dep></entry>
+	<entry><ind>0.9</ind><dep>0.0853344</dep></entry>
+	<entry><ind>1.0</ind><dep>0.094816</dep></entry>
+</interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>Throttle-4</object-name>
+  <property>controls/engines/engine[3]/throttle</property>
+<interpolation>
+	<entry><ind>0.0</ind><dep>0</dep></entry>
+	<entry><ind>0.1</ind><dep>0.0094816</dep></entry>
+	<entry><ind>0.2</ind><dep>0.0189632</dep></entry>
+	<entry><ind>0.3</ind><dep>0.0284448</dep></entry>
+	<entry><ind>0.4</ind><dep>0.0379264</dep></entry>
+	<entry><ind>0.5</ind><dep>0.047408</dep></entry>
+	<entry><ind>0.6</ind><dep>0.0568896</dep></entry>
+	<entry><ind>0.7</ind><dep>0.0663712</dep></entry>
+	<entry><ind>0.8</ind><dep>0.0758528</dep></entry>
+	<entry><ind>0.9</ind><dep>0.0853344</dep></entry>
+	<entry><ind>1.0</ind><dep>0.094816</dep></entry>
+</interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-0</object-name>
+        <condition>
+            <equals>
+                 <property>/controls/flight/flaps</property>
+                <value>0</value>
+            </equals>
+        </condition>
+</animation>
+<animation>
+<type>select</type>
+<object-name>Flaps-5</object-name>
+        <condition><and>
+            <greater-than>
+                 <property>/controls/flight/flaps</property>
+                <value>0</value>
+            </greater-than>
+            <less-than>
+                 <property>/controls/flight/flaps</property>
+                <value>0.35</value>
+            </less-than>
+        </and></condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-15</object-name>
+        <condition>
+			<and>
+				<greater-than>
+					<property>/controls/flight/flaps</property>
+					<value>0.35</value>
+				</greater-than>
+				<less-than>
+					<property>/controls/flight/flaps</property>
+					<value>0.68</value>
+				</less-than>
+			</and>
+		</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-30</object-name>
+        <condition>
+            <equals>
+                 <property>/controls/flight/flaps</property>
+                <value>1</value>
+            </equals>
+        </condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>BrkON</object-name>
+        <condition>
+			<equals>
+			<property>controls/gear/brake-parking</property>
+			<value>1</value>
+			</equals>
+        </condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>BrkOFF</object-name>
+        <condition>
+			<equals>
+			<property>controls/gear/brake-parking</property>
+			<value>0</value>
+			</equals>
+        </condition>
+</animation>
+
+ <animation>
+  <type>noshadow</type>
+  <object-name>Lighting</object-name>
+ </animation>
+
+ <animation> 
+  <type>material</type> 
+  <object-name>Lighting</object-name>
+  <emission>
+   <red>1.0</red>
+   <green>1.0</green>
+   <blue>1.0</blue>
+   <factor-prop>controls/lighting/integrl</factor-prop>
+  </emission>
+ </animation>
+ 
+<animation>
+	<type>rotate</type>
+	<object-name>A/P</object-name>
+	<condition>
+	<and>
+	<equals>
+	<property>/autopilot/locks/heading</property>
+	<value>dg-heading-hold</value>
+	</equals>
+	<equals>
+	<property>/autopilot/locks/altitude</property>
+	<value>altitude-hold</value>
+	</equals>
+	</and>
+	</condition>
+	<factor>-55</factor>
+	<axis>
+		<x>0</x>
+		<y>0</y>
+		<z>-1</z>
+	</axis>
+	<center>
+		<x-m>-16.66969</x-m>
+		<y-m>0.0</y-m>
+		<z-m>-1.27361</z-m>
+	</center>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>GearUp</object-name>
+        <condition>
+		<not><property>/controls/gear/gear-down</property></not>
+		</condition>
+</animation>
+<animation>
+<type>select</type>
+<object-name>GearDown</object-name>
+        <condition>
+		<property>/controls/gear/gear-down</property>
+		</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>HPCOCKSOFF</object-name>
+<object-name>LPCOCKSON</object-name>
+        <condition>
+		<not><property>/controls/Screwmeup</property></not>
+		</condition>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>Engine-1FF-Cursor</object-name>
+  <property>engines/engine[0]/fuel-flow-gph</property>
+  <interpolation>
+    <entry><ind>    0.00</ind><dep>   0.0</dep></entry>
+    <entry><ind> 400</ind><dep>  53</dep></entry>
+    <entry><ind>800</ind><dep> 101</dep></entry>
+    <entry><ind>1200</ind><dep> 145</dep></entry>
+    <entry><ind>1600</ind><dep>    190</dep></entry>
+  </interpolation>
+  <axis>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </axis>
+  
+	<center>
+		<x-m>-15.75057</x-m>
+		<y-m>1.01872</y-m>
+		<z-m>-0.87387</z-m>
+	</center>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>Engine-2FF-Cursor</object-name>
+  <property>engines/engine[1]/fuel-flow-gph</property>
+  <interpolation>
+    <entry><ind>    0.00</ind><dep>   0.0</dep></entry>
+    <entry><ind> 400</ind><dep>  53</dep></entry>
+    <entry><ind>800</ind><dep> 101</dep></entry>
+    <entry><ind>1200</ind><dep> 145</dep></entry>
+    <entry><ind>1600</ind><dep>    190</dep></entry>
+  </interpolation>
+  <axis>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </axis>
+  
+	<center>
+		<x-m>-15.62782</x-m>
+		<y-m>1.04397</y-m>
+		<z-m>-0.87377</z-m>
+	</center>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>Engine-3FF-Cursor</object-name>
+  <property>engines/engine[2]/fuel-flow-gph</property>
+  <interpolation>
+    <entry><ind>    0.00</ind><dep>   0.0</dep></entry>
+    <entry><ind> 400</ind><dep>  53</dep></entry>
+    <entry><ind>800</ind><dep> 101</dep></entry>
+    <entry><ind>1200</ind><dep> 145</dep></entry>
+    <entry><ind>1600</ind><dep>    190</dep></entry>
+  </interpolation>
+  <axis>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </axis>
+  
+	<center>
+		<x-m>-15.32947</x-m>
+		<y-m>1.09832</y-m>
+		<z-m>-0.87377</z-m>
+	</center>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>Engine-4FF-Cursor</object-name>
+  <property>engines/engine[3]/fuel-flow-gph</property>
+  <interpolation>
+    <entry><ind>    0.00</ind><dep>   0.0</dep></entry>
+    <entry><ind> 400</ind><dep>  53</dep></entry>
+    <entry><ind>800</ind><dep> 101</dep></entry>
+    <entry><ind>1200</ind><dep> 145</dep></entry>
+    <entry><ind>1600</ind><dep>    190</dep></entry>
+  </interpolation>
+  <axis>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </axis>
+  
+	<center>
+		<x-m>-15.21824</x-m>
+		<y-m>1.11571</y-m>
+		<z-m>-0.87377</z-m>
+	</center>
+</animation>
+<!--Dome Lights-->
+<animation>
+    <type>material</type>
+    <object-name>Structure-1_DefaultWhite</object-name>
+    <object-name>Structure-1_default</object-name>
+    <object-name>Structure-2_default</object-name>
+    <object-name>Cube</object-name>
+    <object-name>Cube.001</object-name>
+    <object-name>Gear_default</object-name>
+    <object-name>GearUp</object-name>
+    <object-name>GearDown</object-name>
+    <object-name>Starter-selecter</object-name>
+    <object-name>Starter-1</object-name>
+    <object-name>Starter-2</object-name>
+    <object-name>Starter-3</object-name>
+    <object-name>Starter-4</object-name>
+    <object-name>Flaps</object-name>
+    <object-name>Pedestal</object-name>
+    <object-name>Pedestal.001</object-name>
+    <object-name>BrkOFF</object-name>
+    <object-name>BrkON</object-name>
+    <object-name>AP-stack</object-name>
+    <object-name>ATBRD</object-name>
+    <object-name>Airbrake</object-name>
+	<object-name>Throttle-1</object-name>
+	<object-name>Throttle-2</object-name>
+	<object-name>Throttle-3</object-name>
+	<object-name>Throttle-4</object-name>
+	<object-name>A/P</object-name>
+	<object-name>Switch-thingies</object-name>
+	<object-name>Vertical_Speed</object-name>
+	<object-name>ARBRKHANDLE</object-name>
+	<object-name>Altitude</object-name>
+	<object-name>Trim-HSTAB</object-name>
+	<object-name>Trim-Rdr</object-name>
+    <object-name>Flaps-0</object-name>
+    <object-name>Flaps-5</object-name>
+    <object-name>Flaps-15</object-name>
+    <object-name>Flaps-30</object-name>
+    <object-name>HPCOCKSOFF</object-name>
+    <object-name>HPCOCKSON</object-name>
+    <object-name>LPCOCKSOFF</object-name>
+    <object-name>LPCOCKSON</object-name>
+    <object-name>A/P-ENG-Light</object-name>
+    <object-name>VOR/LOC</object-name>
+    <object-name>VS-Sel</object-name>
+    <object-name>G/S</object-name>
+    <object-name>AT-Eng</object-name>
+    <object-name>Modeselect</object-name>
+    <object-name>AT-KNOB</object-name>
+    <object-name>G/S</object-name>
+    <object-name>FirstOfficer</object-name>
+    <object-name>FlightEngineer</object-name>
+    <object-name>Captain</object-name>
+    <object-name>Navigator</object-name>
+    <object-name>AT-Active</object-name>
+    <object-name>AP-MASTER</object-name>
+    <object-name>W/L</object-name>
+    <object-name>VS</object-name>
+    <object-name>ALT-HLD</object-name>
+    <object-name>Glideslope</object-name>
+    <object-name>HEADING</object-name>
+    <object-name>LOC</object-name>
+    <object-name>EMPTY</object-name>
+    <object-name>Inverter-switches</object-name>
+    <object-name>Electric-Selector</object-name>
+    <object-name>Fuel-Pumps</object-name>
+    <object-name>Inverter-lamps</object-name>
+    <object-name>LG_TRANS</object-name>
+    <object-name>No-Smoke</object-name>
+    <object-name>Seatbelt</object-name>
+    <object-name>Frame</object-name>
+    <object-name>Beacon</object-name>
+    <object-name>Nav</object-name>
+    <object-name>Strobe</object-name>
+    <object-name>Wing-logo</object-name>
+    <object-name>Engine-1-Fire</object-name>
+    <object-name>Engine-2-Fire</object-name>
+    <object-name>Engine-3-Fire</object-name>
+    <object-name>Engine-4-Fire</object-name>
+    <object-name>Hyd-supply</object-name>
+    <object-name>Hyd-supply</object-name>
+    <object-name>Taxi</object-name>
+    <object-name>Landing</object-name>
+    <object-name>Instruments</object-name>
+    <object-name>Integral</object-name>
+    <object-name>Dome</object-name>
+    <object-name>Test-lights</object-name>
+    <object-name>excess-3</object-name>
+    <object-name>excess-2</object-name>
+    <object-name>excess-1</object-name>
+    <object-name>Pump-1-switch</object-name>
+    <object-name>Pump-2-switch</object-name>
+    <object-name>Test</object-name>
+    <object-name>Alt-Pump-toggle</object-name>
+    <object-name>Test</object-name>
+    <object-name>Alt-Pump-toggle</object-name>
+    <emission>
+	<factor-prop>controls/lighting/dome</factor-prop>
+      <red>0.75</red>
+      <green>0.75</green>
+      <blue>0.75</blue>
+    </emission>
+</animation>
+<!--Instruments-->
+<animation>
+    <type>material</type>
+    <object-name>OAT</object-name>
+    <object-name>OAT-Cursor</object-name>
+    <object-name>Cabin-Alt</object-name>
+    <object-name>Cabin-Alt-Cursor</object-name>
+    <object-name>Cabin-Press</object-name>
+    <object-name>Cabin-Press-Cursor</object-name>
+    <object-name>Volt-Meter</object-name>
+    <object-name>Cabin-Press</object-name>
+    <object-name>Cabin-Press-Cursor</object-name>
+    <object-name>Volt-Meter</object-name>
+    <object-name>FuelTemp-1</object-name>
+    <object-name>FuelTemp-2</object-name>
+    <object-name>FuelTemp-3</object-name>
+    <object-name>FuelTempCursor-1</object-name>
+    <object-name>FuelTempCursor-2</object-name>
+    <object-name>FuelTempCursor-3</object-name>
+    <object-name>FuelQty-1</object-name>
+    <object-name>FuelQty-2</object-name>
+    <object-name>FuelQty-3</object-name>
+    <object-name>FuelQtyCursor-1</object-name>
+    <object-name>FuelQtyCursor-2</object-name>
+    <object-name>FuelQtyCursor-3</object-name>
+    <object-name>Engine-1FF</object-name>
+    <object-name>Engine-2FF</object-name>
+    <object-name>Engine-3FF</object-name>
+    <object-name>Engine-4FF</object-name>
+    <object-name>Engine-1FF-Cursor</object-name>
+    <object-name>Engine-2FF-Cursor</object-name>
+    <object-name>Engine-3FF-Cursor</object-name>
+    <object-name>Engine-4FF-Cursor</object-name>
+    <object-name>HYD-1</object-name>
+    <object-name>HYD-2</object-name>
+    <object-name>Cursor-1</object-name>
+    <object-name>Cursor-2</object-name>
+    <emission>
+	<factor-prop>controls/lighting/panel-norm</factor-prop>
+      <red>0.25</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
+    </emission>
+</animation>
+<animation>
+    <type>material</type>
+    <object-name>MLG-LEFT</object-name>
+    <object-name>MLG_RIGHT</object-name>
+    <object-name>NLG_Light</object-name>
+	<condition>
+	<not><property>gear/gear/position-norm</property></not>
+	</condition>
+    <emission>
+      <red>1</red>
+      <green>0</green>
+      <blue>0</blue>
+    </emission>
+</animation>
+<animation>
+    <type>material</type>
+    <object-name>LG_TRANS</object-name>
+	<condition>
+		<and>
+			<not><property>gear/gear/position-norm</property></not>
+			<property>gear/gear/position-norm</property>
+		</and>
+	</condition>
+    <emission>
+      <red>1</red>
+      <green>1</green>
+      <blue>1</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>MLG-LEFT</object-name>
+    <object-name>MLG_RIGHT</object-name>
+    <object-name>NLG_Light</object-name>
+	<condition>
+		<and>
+			<greater-than>
+			<property>gear/gear/position-norm</property>
+			<value>0</value>
+			</greater-than>
+			<less-than>
+			<property>gear/gear/position-norm</property>
+			<value>1</value>
+			</less-than>
+		</and>
+	</condition>
+    <emission>
+      <red>1</red>
+      <green>1</green>
+      <blue>0</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>MLG-LEFT</object-name>
+    <object-name>MLG_RIGHT</object-name>
+    <object-name>NLG_Light</object-name>
+	<condition>
+	<property>gear/gear/position-norm</property>
+	</condition>
+    <emission>
+      <red>0</red>
+      <green>1</green>
+      <blue>0</blue>
+    </emission>
+</animation>
+</PropertyList>

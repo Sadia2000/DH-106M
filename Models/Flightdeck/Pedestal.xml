@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>Pedestal.ac</path>
+<!--Flaps Animation-->
+<!--<animation>
+<type>select</type>
+<object-name>Flaps-0</object-name>
+        <condition>
+            <equals>
+                 <property>/controls/flight/flaps</property>
+                <value>0</value>
+            </equals>
+        </condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-5</object-name>
+        <condition><and>
+            <greater-than>
+                 <property>/controls/flight/flaps</property>
+                <value>0</value>
+            </greater-than>
+            <less-than>
+                 <property>/controls/flight/flaps</property>
+                <value>0.35</value>
+            </less-than>
+        </and></condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-15</object-name>
+        <condition>
+			<and>
+				<greater-than>
+					<property>/controls/flight/flaps</property>
+					<value>0.35</value>
+				</greater-than>
+				<less-than>
+					<property>/controls/flight/flaps</property>
+					<value>0.68</value>
+				</less-than>
+			</and>
+		</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>Flaps-30</object-name>
+        <condition>
+            <equals>
+                 <property>/controls/flight/flaps</property>
+                <value>1</value>
+            </equals>
+        </condition>
+</animation>-->
+
+</PropertyList>
