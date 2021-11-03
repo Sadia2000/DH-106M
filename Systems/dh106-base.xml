@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <sim include="views.xml">
+
+    <fuel-fraction>0.4</fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/DH-106M/thumbnail.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/DH-106M/Sounds/dh106-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/DH-106M/Models/dh106.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int    n="0"  type="int">0</int>
+        <int    n="1"  type="int">0</int>
+        <int    n="2"  type="int">0</int>
+        <int    n="3"  type="int">0</int>
+        <int    n="4"  type="int">0</int>
+        <int    n="5"  type="int">0</int>
+        <int    n="6"  type="bool">1</int>
+        <int    n="7"  type="int">0</int>
+        <int    n="8"  alias="/systems/electrical/outputs/nav-lights">0</int>
+        <int    n="9"  alias="/sim/model/lights/beacon/state">false</int>
+        <float  n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
+        <float  n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
+        <float  n="2"  alias="/position/gear-agl-m">0</float>
+        <float  n="3"  alias="/position/altitude-ft">0</float>
+        <float  n="4"  alias="/engines/engine[0]/n1"/>
+        <float  n="5"  alias="/engines/engine[1]/n1"/>
+        <float  n="6"  alias="/engines/engine[2]/n1"/>
+        <float  n="7"  alias="/engines/engine[3]/n1"/>
+        <float  n="8"  alias="/controls/engines/engine[0]/throttle"/>
+        <float  n="9"  alias="/controls/engines/engine[1]/throttle"/>
+        <float  n="10" alias="/controls/engines/engine[2]/throttle"/>
+        <float  n="11" alias="/controls/engines/engine[3]/throttle"/>
+        <float  n="12" alias="/gear/gear[0]/wow/"/>
+        <float  n="13" alias="/gear/gear[1]/wow/"/>
+        <float  n="14" alias="/gear/gear[2]/wow/"/>
+        <float  n="15" alias="/gear/gear[0]/rollspeed-ms"/>
+        <float  n="16" alias="/gear/gear[1]/rollspeed-ms"/>
+        <float  n="17" alias="/gear/gear[2]/rollspeed-ms"/>
+        <!-- For Bombable -->
+        <int    n="10" type="int" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string" />
+      </generic>
+    </multiplay>
+
+    <help include="help.xml"/>
+
+    <menubar include="../Dialogs/dh106-menu.xml"/>
+
+  </sim>
+
+  <input include="dh106-keyboard.xml"/>
+
+  <controls include="controls.xml"/>
+
+  <instrumentation include="instrumentation.xml"/>
+
+  <nasal>
+    <doors>
+      <file>Aircraft/DH-106M/Nasal/doors.nas</file>
+    </doors>
+    <dh106>
+      <file>Aircraft/DH-106M/Nasal/light.nas</file>
+      <file>Aircraft/DH-106M/Nasal/liveries.nas</file>
+      <file>Aircraft/DH-106M/Nasal/convert.nas</file>
+      <file>Aircraft/DH-106M/Nasal/Electrical.nas</file>
+    </dh106>
+    <engines>
+      <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>
+      <file>Aircraft/DH-106M/Nasal/engines-yasim.nas</file>
+    </engines>
+  </nasal>
+
+</PropertyList>

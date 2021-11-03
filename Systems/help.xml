@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <title>dh106</title>
+  <line>______________________________________________</line>
+  <key>
+    <name>}</name>
+    <desc>AutoStart/AutoStop</desc>
+  </key>
+  <!--
+  <key>
+    <name>d</name>
+    <desc>Open/Close door</desc>
+  </key>
+  -->
+  <key>
+    <name>l</name>
+    <desc>On/Off Landing light</desc>
+  </key>
+
+</PropertyList>

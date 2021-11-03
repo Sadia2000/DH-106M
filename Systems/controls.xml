@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <lighting>
+    <instrument-lights type="bool">false</instrument-lights>
+    <nav-lights type="bool">false</nav-lights>
+    <taxi-lights type="bool">false</taxi-lights>
+    <beacon type="bool">false</beacon>
+    <strobe type="bool">false</strobe>
+    <landing-lights type="bool">false</landing-lights>
+    <luminosite-lights type="float">1</luminosite-lights>
+    <floods-lights type="float">0.5</floods-lights>
+  </lighting>
+
+  <electric>
+    <battery-switch>0</battery-switch>
+    <generator>0</generator>
+    <engines>
+      <engine n="0">
+        <fuel-pump>0</fuel-pump>
+      </engine>
+    </engines>
+    <engines>
+      <engine n="1">
+        <fuel-pump>0</fuel-pump>
+      </engine>
+    </engines>
+    <engines>
+      <engine n="2">
+        <fuel-pump>0</fuel-pump>
+      </engine>
+    </engines>
+    <engines>
+      <engine n="3">
+        <fuel-pump>0</fuel-pump>
+      </engine>
+    </engines>
+  </electric>
+
+  <engines>
+    <engine n="0">
+      <on type="bool">false</on>
+      <boost type="double">0</boost>
+      <magnetos>0</magnetos>
+    </engine>
+    <engine n="1">
+      <on type="bool">false</on>
+      <boost type="double">0</boost>
+      <magnetos>0</magnetos>
+    </engine>
+    <engine n="2">
+      <on type="bool">false</on>
+      <boost type="double">0</boost>
+      <magnetos>0</magnetos>
+    </engine>
+    <engine n="3">
+      <on type="bool">false</on>
+      <boost type="double">0</boost>
+      <magnetos>0</magnetos>
+    </engine>
+  </engines>
+
+  <gear>
+    <brake-parking type="bool">true</brake-parking>
+    <tailwheel-lock type="bool">true</tailwheel-lock>
+  </gear>
+
+  <flight>
+    <rudder-trim>   0.00 </rudder-trim>
+    <aileron-trim>  0.00 </aileron-trim>
+    <elevator-trim> 0.15 </elevator-trim>
+  </flight>
+
+</PropertyList>

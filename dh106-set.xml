@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList include="Systems/dh106-base.xml">
+<controls>
+<pos>1</pos>
+</controls>
+  <sim>
+
+    <description>de Havilland DH 106 Comet 4M (YASim)</description>
+    <author>Emmanuel BARANGER (Developer of the original DH-106)</author>
+
+    <aircraft-version>0.3</aircraft-version>
+    <status>Alpha</status>
+    <minimum-fg-version>2018.2.0</minimum-fg-version>
+
+    <flight-model archive="y">yasim</flight-model>
+    <aero archive="y">Systems/dh106-yasim</aero>
+
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   5 </model>
+    </rating>
+
+    <previews>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-1.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-2.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-3.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-4.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-5.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-6.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-7.png</path>
+      </preview>
+      <preview>
+        <type>exterior</type>
+        <splash type="bool">true</splash>
+        <path>Previews/DH-106-8.png</path>
+      </preview>
+    </previews>
+
+  <engine n="0">
+    <engine-num type="int">0</engine-num>
+    <running>false</running>
+    <reverser-position type="double">0.000000</reverser-position>
+	<n1>0.000000</n1>
+	<n2>0.000000</n2>
+  </engine>
+
+  <engine n="1">
+    <engine-num type="int">1</engine-num>
+    <running>false</running>
+    <reverser-position type="double">0.000000</reverser-position>
+	<n1>0.000000</n1>
+	<n2>0.000000</n2>
+  </engine>
+
+  <engine n="2">
+    <engine-num type="int">2</engine-num>
+    <running>false</running>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+
+  <engine n="3">
+    <engine-num type="int">3</engine-num>
+    <running>false</running>
+    <reverser-position type="double">0.000000</reverser-position>
+	<n1>0.000000</n1>
+	<n2>0.000000</n2>
+  </engine>
+  
+
+    <tags>
+      <tag>transport</tag>
+      <tag>1950s</tag> <!-- first delivery 1958 -->
+      <tag>1960s</tag>
+      <tag>1970s</tag>
+      <tag>1980s</tag> <!-- retired november 1980 by Dan Air -->
+      <tag>ifr</tag>
+      <tag>retractable-gear</tag>
+      <tag>tricycle</tag>
+      <tag>jet</tag>
+    </tags>
+
+  </sim>
+
+</PropertyList>
