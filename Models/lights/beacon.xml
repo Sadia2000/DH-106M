@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <path>Classic/beacon.xml</path>
+  </model>
+
+  <model>
+    <name>beaconALS</name>
+    <path>Procedural/beacon.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>beaconALS</object-name>
+    <condition>
+      <property>/sim/rendering/shaders/skydome</property>
+    </condition>
+  </animation>
+
+</PropertyList>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <name>lightcone</name>
+    <path>Classic/light-cone.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>lightcone</object-name>
+    <condition>
+      <not><property>/sim/rendering/shaders/skydome</property></not>
+    </condition>
+  </animation>
+
+  <model>
+    <name>lightconeALS</name>
+    <path>Procedural/light-cone.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>lightconeALS</object-name>
+    <condition>
+      <property>/sim/rendering/shaders/skydome</property>
+    </condition>
+  </animation>
+
+</PropertyList>

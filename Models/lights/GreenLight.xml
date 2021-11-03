@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <path>Classic/GreenLight.xml</path>
+  </model>
+
+  <model>
+    <name>greenlightALS</name>
+    <path>Procedural/GreenLight.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>greenlightALS</object-name>
+    <condition>
+      <property>/sim/rendering/shaders/skydome</property>
+    </condition>
+  </animation>
+
+</PropertyList>

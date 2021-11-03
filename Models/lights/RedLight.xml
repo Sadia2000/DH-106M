@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <path>Classic/RedLight.xml</path>
+  </model>
+
+  <model>
+    <name>RedLightALS</name>
+    <path>Procedural/RedLight.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>RedLightALS</object-name>
+    <condition>
+      <property>/sim/rendering/shaders/skydome</property>
+    </condition>
+  </animation>
+
+</PropertyList>

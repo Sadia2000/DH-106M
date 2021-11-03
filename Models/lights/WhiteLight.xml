@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <path>Classic/WhiteLight.xml</path>
+  </model>
+
+  <model>
+    <name>whitelightALS</name>
+    <path>Procedural/WhiteLight.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>whitelightALS</object-name>
+    <condition>
+      <property>/sim/rendering/shaders/skydome</property>
+    </condition>
+  </animation>
+
+</PropertyList>
